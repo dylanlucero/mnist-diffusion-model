@@ -4,7 +4,7 @@ A from-scratch implementation of a denoising diffusion model trained on the MNIS
 
 ## Overview
 
-DylFM (DylFusion Model) implements the core idea behind diffusion models: **add noise to images, then train a neural network to predict and remove that noise.** Given a noisy image, the model learns to recover the clean original.
+This model implements the core idea behind diffusion models: **add noise to images, then train a neural network to predict and remove that noise.** Given a noisy image, the model learns to recover the clean original.
 
 ## Architecture
 
