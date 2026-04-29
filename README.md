@@ -40,9 +40,9 @@ torch.lerp(input, noise, noise_amount)
 Samples are generated iteratively from pure noise using a progressive denoising loop, stepping from fully noisy to increasingly clean images over multiple passes.
 
 ## Requirements
-torch
-torchvision
-matplotlib
+```bash
+pip install torch torchvision matplotlib
+```
 
 
 ## Results
